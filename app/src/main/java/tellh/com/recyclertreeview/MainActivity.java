@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -40,7 +41,16 @@ public class MainActivity extends AppCompatActivity {
                 new TreeNode<>(new Dir("manifests"))
                         .addChild(new TreeNode<>(new File("AndroidManifest.xml")))
         );
-        app.addChil d(
+        Log.d("TAG333", "initData:  ");
+        Log.d("TAG333", "initData:  ");
+        Log.d("TAG333", "initData:  ");
+        Log.d("TAG333", "initData:  ");
+        Log.d("TAG333", "initData:  ");
+        Log.d("TAG333", "initData:  ");
+        Log.d("TAG333", "initData:  ");
+        Log.d("TAG333", "initData:  ");
+        Log.d("TAG333", "initData:  ");
+        app.addChild(
                 new TreeNode<>(new Dir("java")).addChild(
                         new TreeNode<>(new Dir("tellh")).addChild(
                                 new TreeNode<>(new Dir("com")).addChild(
