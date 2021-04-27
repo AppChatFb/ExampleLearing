@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 new TreeNode<>(new Dir("manifests"))
                         .addChild(new TreeNode<>(new File("AndroidManifest.xml")))
         );
-        app.addChild(
+        app.addChil d(
                 new TreeNode<>(new Dir("java")).addChild(
                         new TreeNode<>(new Dir("tellh")).addChild(
                                 new TreeNode<>(new Dir("com")).addChild(
