@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="me.texy.treeviewdemo.navigation.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/toBottomSheet"
+            app:destination="@id/optionsBottomSheetFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/optionsBottomSheetFragment"
+        android:name="me.texy.treeviewdemo.ui.screen.bottomsheet.OptionsBottomSheetFragment"
+        android:label="OptionsBottomSheetFragment">
+        <argument
+            android:name="data"
+            android:defaultValue="1"
+            app:argType="integer" />
+
+        <argument
+            android:name="teamsq"
+            android:defaultValue="1"
+            app:argType="integer" />
+
+    </dialog>
+</navigation>

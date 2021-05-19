@@ -28,7 +28,7 @@ public abstract class BaseNodeViewFactory {
     * The default implementation below behaves as in previous version when TreeViewAdapter.getItemViewType always returned the level,
     * but you can override it if you want some other viewType value to become the parameter to the method getNodeViewBinder.
     * @param treeNode
-    * @return
+    * @returnDefaultViewModelFactories
     */
     public int getViewType(TreeNode treeNode) {
         return treeNode.getLevel();

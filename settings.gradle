@@ -1,1 +1,1 @@
-include ':app', ':treeview_lib'
+include ':app'

@@ -1,0 +1,59 @@
+{
+  "library": [
+    {
+      "sentence": "The war is not over. And I promise you, friend, the true enemy won't wait out the storm. He brings the storm.",
+      "character": {
+        "name": "Jon Snow",
+        "slug": "jon",
+        "house": {
+          "name": "House Stark of Winterfell",
+          "slug": "stark"
+        }
+      }
+    },
+    {
+      "sentence": "A lion does not concern himself with the opinion of sheep.",
+      "character": {
+        "name": "Tywin Lannister",
+        "slug": "tywin",
+        "house": {
+          "name": "House Lannister of Casterly Rock",
+          "slug": "lannister"
+        }
+      }
+    },
+    {
+      "sentence": "It doesn’t matter what we want. Once we get it, then we want something else.",
+      "character": {
+        "name": "Petyr Baelish",
+        "slug": "baelish",
+        "house": {
+          "name": "House Baelish of Harrenhal",
+          "slug": "baelish"
+        }
+      }
+    },
+    {
+      "sentence": "I know that our enemies hate each other almost as much as they hate us.",
+      "character": {
+        "name": "Tyrion Lannister",
+        "slug": "tyrion",
+        "house": {
+          "name": "House Lannister of Casterly Rock",
+          "slug": "lannister"
+        }
+      }
+    },
+    {
+      "sentence": "I grew up with soldiers. I learned how to die a long time ago.",
+      "character": {
+        "name": "Eddard \"Ned\" Stark",
+        "slug": "ned",
+        "house": {
+          "name": "House Stark of Winterfell",
+          "slug": "stark"
+        }
+      }
+    }
+  ]
+}

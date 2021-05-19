@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "120045645320",
+    "project_id": "examplearchitect-84459",
+    "storage_bucket": "examplearchitect-84459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120045645320:android:575d4c3ffc8410ad0c6bbd",
+        "android_client_info": {
+          "package_name": "me.texy.treeviewdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120045645320-qo0m42dgs8tlb1gsf0q8tsqitpppj1ti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.texy.treeviewdemo",
+            "certificate_hash": "f667ac6632adcb97c62a1898c42ad6ee90dc3ffd"
+          }
+        },
+        {
+          "client_id": "120045645320-ejqe99hjc6d6362gbhrc6381c35bulqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsPS1Rul18K4cnNI2SKhYCvqrqlPg_MLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120045645320-ejqe99hjc6d6362gbhrc6381c35bulqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
